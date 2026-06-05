@@ -19,7 +19,7 @@ export default function About() {
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut' } as any}
+          transition={{ duration: 0.5, ease: 'easeOut' } as any} // eslint-disable-line @typescript-eslint/no-explicit-any
         >
           <h2 className="font-display font-extrabold text-4xl tracking-tight text-white leading-[1.15] mb-4">
             Who we<br />

@@ -1,4 +1,5 @@
 // __mocks__/framer-motion.tsx
+/* eslint-disable @typescript-eslint/no-require-imports, @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */
 const React = require('react')
 
 const motion = new Proxy({}, {

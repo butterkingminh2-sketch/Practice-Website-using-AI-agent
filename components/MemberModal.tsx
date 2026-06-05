@@ -29,7 +29,7 @@ export default function MemberModal({ member, onClose }: Props) {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            transition={{ duration: 0.2 } as any}
+            transition={{ duration: 0.2 } as any} // eslint-disable-line @typescript-eslint/no-explicit-any
             className="fixed inset-0 z-50 flex items-center justify-center p-4"
           >
             <div

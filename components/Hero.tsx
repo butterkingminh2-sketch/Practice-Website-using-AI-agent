@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6, delay } as any,
+  transition: { duration: 0.6, delay } as any, // eslint-disable-line @typescript-eslint/no-explicit-any
 })
 
 export default function Hero() {
